@@ -5,9 +5,6 @@ c = 2.99E8 #speed of light
 h = 1.055E-34 #Dirac constant
 charge = 1.6E-19 #elementary charge
 
-#estimates the mass of the beta stable line given the atomic charge
-def betaLine(z):
-    return 1.41867*math.pow(z, 1.12769) + 1.47124
 
 #calculates coulomb barrier height from charge z and mass a
 def b(z, a): 
