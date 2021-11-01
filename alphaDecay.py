@@ -23,6 +23,7 @@ def gamow(a, z, q, b):
 def prob(gamow): 
     return math.exp(-2 * gamow)
 
-#calculates the theoretical half-life
+#calculates the theoretical half-life. q is in mev.
 def halfLife(a, z, q):
     return 0.5 / (6E21 * prob(gamow(a, z, q, b(z, a))))
+
