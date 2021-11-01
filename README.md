@@ -1,2 +1,2 @@
 # nuclear-decay
- This repository contains various functions that predict radioactive nuclear decay
+ This repository contains various functions that predict radioactive decay of nuclei. There are currently equations for beta, alpha, and fission decay. Proton and neutron decay will be added in the near future. The predictions are approximations based on the liquid drop model and the semi-empirical mass formula. This means that predictions become inaccurate where shell effects become very strong.
